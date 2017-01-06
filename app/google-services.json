@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "652822024379",
+    "project_id": "agilizeyourlife"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652822024379:android:c1067849e2dea107",
+        "android_client_info": {
+          "package_name": "com.anurag.agilizeyourlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652822024379-m4lb61f185jgghh4csnlauq750h75mer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnbFYvt1ErF29XvsPlLmJDNA7ot5lwnPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-89072724-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

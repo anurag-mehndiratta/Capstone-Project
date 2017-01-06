@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anurag.agilizeyourlife">
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.google.android.gcm.demo.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        android:name="com.google.android.gcm.demo.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".analytics.AnalyticsApplication">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LifeBacklogActivity"
+            android:label="@string/title_activity_life_backlog"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SprintCycleActivity"
+            android:label="@string/title_activity_sprint_cycle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ToDoListActivity"
+            android:label="@string/title_activity_to_do_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CompletedTasksActivity"
+            android:label="@string/title_activity_completed_tasks"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".widget.ToDoWIdgetRemoteService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <provider
+            android:name=".db.TasksProvider"
+            android:authorities="com.anurag.agilizeyourlife.utils"
+            android:exported="false"/>
+
+        <receiver android:name=".widget.ToDoWIdgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/to_do_widget_provider_info" />
+        </receiver>
+    </application>
+
+</manifest>

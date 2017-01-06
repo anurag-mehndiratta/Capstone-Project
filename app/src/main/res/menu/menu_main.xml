@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.anurag.agilizeyourlife.MainActivity">
+    <item
+        android:id="@+id/action_life_backlog"
+        android:orderInCategory="100"
+        android:title="@string/action_life_backlog"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sprint_cycle"
+        android:orderInCategory="100"
+        android:title="@string/action_sprint_cycle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_todo_list"
+        android:orderInCategory="100"
+        android:title="@string/action_todo_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_completed_tasks"
+        android:orderInCategory="100"
+        android:title="@string/action_completed_tasks"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name" translatable="false">Agilize Your Life</string>
+    <string name="action_life_backlog" translatable="false">Life Backlog</string>
+    <string name="action_sprint_cycle" translatable="false">Sprint Cycle</string>
+    <string name="action_todo_list" translatable="false">ToDo List</string>
+    <string name="action_completed_tasks" translatable="false">Completed Tasks</string>
+    <string name="title_activity_life_backlog" translatable="false">Your Life Backlog</string>
+    <string name="title_activity_sprint_cycle" translatable="false">Your Sprint Cycle</string>
+    <string name="title_activity_to_do_list" translatable="false">Your ToDo List</string>
+    <string name="title_activity_completed_tasks" translatable="false">Your Completed Tasks</string>s
+
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="appwidget_text" translatable="false">TODO LIST</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_ad_unit_id"  translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="moveTaskToSprint">Move the task to Sprint?</string>
+    <string name="moveTaskToToDoList">Move the task to ToDo List?</string>
+    <string name="taskMovedToSprint">Task successfully moved to sprint</string>
+    <string name="taskMovedToToDoList">Task successfully moved to ToDo list</string>
+    <string name="markTaskCompleted">Mark Task Completed?</string>
+    <string name="taskMarkedCompleted">Task successfully marked completed</string>
+    <string name="deleteTask">Deleting the task will delete the task from all the lists. Confirm?</string>
+    <string name="taskDeleted">Task deleted successfully</string>
+    <string name="taskEdited">Task can be edited now</string>
+    <string name="taskAdded">Task added successfully</string>
+    <string name="taskUpdated">Task updated successfully</string>
+    <string name="editTask">Editing the task will edit the task in all the places. Confirm?</string>
+
+    <string name="updateButton">Update</string>
+    <string name="saveButton">Save</string>
+    <string name="deleteButton">Delete</string>
+    <string name="genericError">Sorry, encountered a problem!!</string>
+
+    <string name="fabUserPromt">Task will be added to Life Backlog</string>
+
+    <string name="listitem_description">Your ToDo Item List</string>
+
+    <string name="fab_desc">Floating Action Button to add a task</string>
+    <string name="edit_desc">Edit the task</string>
+    <string name="delete_desc">Delete the task</string>
+
+    <string name="title_error">Title is required!</string>
+    <string name="title_length">Title is greater than 25 characters!</string>
+    <string name="desc_error">Description is required!</string>
+
+    <string name="taskOnlyDeletable">The task can only be deleted from Completed Tasks List</string>
+
+    <string name="no_data_available">No data available in the list</string>
+
+    <string name="life_backlog">Life Backlog</string>
+    <string name="sprint_backlog">Sprint Cycle</string>
+    <string name="todo_list">ToDo List</string>
+    <string name="completed_tasks">Completed Tasks</string>
+
+    <string name="widget_title">To Do List</string>
+
+    <string name="todo_plate">What\'s on your plate today?</string>
+    <string name="success">Success</string>
+
+    <string name="failed">Sorry, no quotes available</string>
+    <string name="internet_connection">No Internet connection!</string>
+</resources>
